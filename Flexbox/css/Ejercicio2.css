@@ -1,0 +1,15 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen{
+    width: 200px;
+    height: 100px;
+    border: seagreen;
+    background-color: darkseagreen;
+    border-style: dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

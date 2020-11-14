@@ -1,0 +1,12 @@
+.contenedor{
+    height: 500vh;
+    width: 500vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.elemento{
+    border-color: red;
+    border-style: solid ;
+
+}
