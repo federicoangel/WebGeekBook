@@ -1,0 +1,15 @@
+header{
+    background-color:lightgray;
+    flex: 0 0 0;
+}
+
+main{
+    background-color: gray;
+    min-height: 100vh;
+    flex: 0 0 0;
+}
+
+footer{
+    background-color: peru;
+    flex: 0 0 0;
+}

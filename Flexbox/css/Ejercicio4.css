@@ -1,0 +1,37 @@
+.contenedor{
+display: flex;
+flex-direction: column;
+}
+
+.not{
+    display: flex;
+    flex-direction: row;
+}
+
+.noticia{
+    border-color: maroon;
+    border-style: solid;
+}
+
+.contenedorimg{
+    background-color: gray;
+}
+
+.n1{
+    order: 1;
+}
+.n2{
+    order: 1;
+}
+
+.n3{
+    order: 1;
+}
+
+.n4{
+    order: 1;
+}
+
+.n5{
+    order: 0;
+}

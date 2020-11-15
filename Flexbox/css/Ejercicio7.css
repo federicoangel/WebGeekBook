@@ -1,0 +1,79 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 840px;
+    opacity: 0.6;
+}
+
+.contenedorEspecialista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    border-radius: 5px
+}
+
+.valoracion{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.valAl{
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+}
+
+.puntEst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    font-weight: bold;
+    background-color: rgb(202, 206, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+}
+
+h3, h6{
+    margin: 0px;
+}
+
+button{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btnReservar{
+    background-color: rgb(202, 206, 209);
+    color: white;
+    border-color: white;
+}
+
+.btnPedir{
+    background-color:white;
+    color:  rgb(202, 206, 209);
+    border-color:  rgb(202, 206, 209);
+}
+
+small{
+    color:  rgb(202, 206, 209);
+}

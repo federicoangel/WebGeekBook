@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+  max-width: 960px;
+
+}
+
+.wrapper > * {
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.aside{
+    flex: 1 0 0;
+}
+
+.article {
+  text-align: left;
+  background: deepskyblue;
+  flex: 3 0px;
+  order: 2;
+}
+
+.aside-1 {
+  background: gold;
+  order: 1;
+}
+
+.aside-2 {
+  background: hotpink;
+  order: 3;
+}
+
+.footer {
+    background: lightgreen;
+    order: 4;
+}
+
+body {
+  padding: 2em; 
+}
